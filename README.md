@@ -36,5 +36,3 @@ git config --global user.name 'M Carolina Sayo O Freitas'
 git config --global user.email astersmistake@gmail.com
 
 git config --global --list
-
-credencial GitHub: remover caso não tenha seu nome
