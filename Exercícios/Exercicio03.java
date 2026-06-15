@@ -46,7 +46,7 @@ public static void main(String[] args) {
         } else {
             System.out.println("Esses valores formam um triângulo.");
 
-            // Classificação pelo tamanho dos lados
+        // Classificação pelo tamanho dos lados
             if (maior == medio && medio == menor) {
                 System.out.println("É um triângulo equilátero (todos os lados iguais).");
             } else if (maior == medio || medio == menor || maior == menor) {
