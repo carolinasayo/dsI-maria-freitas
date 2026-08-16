@@ -1,0 +1,484 @@
+Dicionário — Java, Maven, Framework, IntelliJ e Red Hat
+
+Java
+
+Java é uma linguagem de programação muito utilizada no desenvolvimento de aplicações, sistemas web, APIs e sistemas empresariais.
+
+É a linguagem que usamos para escrever o código da aplicação.
+
+Exemplo:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+
+---
+
+JDK
+
+JDK significa Java Development Kit.
+
+É o conjunto de ferramentas necessário para desenvolver aplicações em Java.
+
+Ele fornece ferramentas para:
+
+- Compilar código Java;
+- Executar aplicações;
+- Desenvolver programas;
+- Depurar aplicações;
+- Realizar tarefas relacionadas ao desenvolvimento.
+
+Um exemplo é o JDK 21.
+
+«Java = linguagem de programação
+JDK = ferramentas utilizadas para desenvolver em Java»
+
+---
+
+IDE
+
+IDE significa Integrated Development Environment, ou Ambiente de Desenvolvimento Integrado.
+
+É um programa que reúne várias ferramentas necessárias para desenvolver software em um único ambiente.
+
+Uma IDE normalmente oferece:
+
+- Editor de código;
+- Autocomplete;
+- Identificação de erros;
+- Compilação;
+- Execução;
+- Debugger;
+- Gerenciamento de projetos;
+- Integração com Git;
+- Integração com ferramentas como Maven.
+
+Um exemplo de IDE é a IntelliJ IDEA.
+
+---
+
+IntelliJ IDEA
+
+IntelliJ IDEA é uma IDE desenvolvida pela JetBrains e muito utilizada para desenvolvimento em Java e Kotlin.
+
+Ela permite:
+
+- Criar e organizar projetos;
+- Escrever código;
+- Executar aplicações;
+- Identificar erros;
+- Utilizar o debugger;
+- Gerenciar dependências;
+- Trabalhar com Maven;
+- Utilizar Git;
+- Organizar os arquivos do projeto.
+
+Em resumo:
+
+«IntelliJ IDEA = ambiente onde desenvolvemos o projeto.»
+
+---
+
+Maven
+
+Maven é uma ferramenta utilizada para gerenciar e automatizar projetos Java.
+
+Ele ajuda a controlar:
+
+- Dependências;
+- Compilação;
+- Testes;
+- Empacotamento;
+- Versões;
+- Plugins;
+- Outras tarefas do projeto.
+
+Por exemplo, imagine que um projeto precise de várias bibliotecas diferentes. Em vez de baixar e configurar cada uma manualmente, podemos informar essas dependências ao Maven, que ficará responsável por gerenciá-las.
+
+Em resumo:
+
+«Maven = ferramenta que gerencia e constrói o projeto Java.»
+
+---
+
+POM / pom.xml
+
+POM significa Project Object Model.
+
+É o modelo de configuração utilizado pelo Maven.
+
+O arquivo principal é:
+
+pom.xml
+
+Nele ficam informações como:
+
+- Nome do projeto;
+- Identificação do projeto;
+- Versão;
+- Versão do Java;
+- Dependências;
+- Plugins;
+- Configurações do Maven.
+
+Exemplo:
+
+<project>
+
+    <groupId>br.com.exemplo</groupId>
+
+    <artifactId>meu-projeto</artifactId>
+
+    <version>1.0-SNAPSHOT</version>
+
+</project>
+
+Em resumo:
+
+«pom.xml = arquivo principal de configuração do Maven.»
+
+---
+
+groupId
+
+O "groupId" identifica o grupo, organização ou projeto responsável pelo código.
+
+Exemplo:
+
+<groupId>br.com.exemplo</groupId>
+
+Ele ajuda a organizar e identificar projetos dentro do Maven.
+
+---
+
+artifactId
+
+O "artifactId" identifica o projeto ou artefato.
+
+Exemplo:
+
+<artifactId>sistema-escola</artifactId>
+
+Junto com o "groupId" e a "version", ele ajuda a identificar um projeto dentro do Maven.
+
+---
+
+version
+
+Indica a versão atual do projeto.
+
+Exemplo:
+
+<version>1.0-SNAPSHOT</version>
+
+Alguns exemplos:
+
+1.0
+1.1
+2.0
+
+SNAPSHOT
+
+"SNAPSHOT" normalmente indica que aquela versão ainda está em desenvolvimento.
+
+Exemplo:
+
+1.0-SNAPSHOT
+
+---
+
+Dependency
+
+Dependency significa dependência.
+
+É uma biblioteca ou recurso externo que o projeto precisa para funcionar.
+
+Em vez de desenvolver determinada funcionalidade do zero, podemos utilizar uma biblioteca que já possui aquilo que precisamos.
+
+As dependências normalmente são declaradas no:
+
+pom.xml
+
+Exemplo:
+
+<dependency>
+    <groupId>exemplo</groupId>
+    <artifactId>biblioteca</artifactId>
+    <version>1.0</version>
+</dependency>
+
+O Maven pode baixar e gerenciar essa dependência automaticamente.
+
+Em resumo:
+
+«Dependency = biblioteca ou recurso externo necessário para o projeto.»
+
+---
+
+Framework
+
+Framework é uma estrutura de desenvolvimento que fornece recursos, componentes e padrões para facilitar a criação de aplicações.
+
+A ideia é evitar que o desenvolvedor precise construir tudo do zero.
+
+Alguns exemplos de frameworks ou tecnologias de framework no ecossistema Java são:
+
+- Spring Boot;
+- Quarkus;
+- Jakarta EE;
+- Hibernate.
+
+Biblioteca x Framework
+
+Uma biblioteca normalmente é chamada pelo nosso código quando precisamos de alguma funcionalidade.
+
+Seu código
+    ↓
+chama a biblioteca
+
+No framework, existe uma estrutura maior para a aplicação, e nosso código é desenvolvido seguindo essa estrutura.
+
+Framework
+    ↓
+define uma estrutura
+    ↓
+Seu código se encaixa nela
+
+Em resumo:
+
+«Framework = estrutura que facilita e organiza o desenvolvimento de uma aplicação.»
+
+---
+
+Quarkus
+
+Quarkus é um framework Java moderno associado ao ecossistema da Red Hat.
+
+Ele é utilizado principalmente no desenvolvimento de aplicações como:
+
+- APIs;
+- Microsserviços;
+- Aplicações em cloud;
+- Aplicações em containers;
+- Sistemas que utilizam Kubernetes.
+
+Um projeto pode utilizar:
+
+Java
++
+Maven
++
+Quarkus
+
+---
+
+Hibernate
+
+Hibernate é uma tecnologia muito utilizada em aplicações Java para facilitar a comunicação entre a aplicação e bancos de dados relacionais.
+
+Ele utiliza o conceito de ORM.
+
+ORM
+
+ORM significa Object-Relational Mapping, ou Mapeamento Objeto-Relacional.
+
+A ideia é relacionar objetos e classes Java com tabelas e registros de um banco de dados.
+
+Por exemplo:
+
+Classe Java
+    ↓
+Usuario
+    ↓
+Tabela do banco
+    ↓
+usuarios
+
+---
+
+Red Hat
+
+Red Hat é uma empresa de tecnologia conhecida por trabalhar com soluções baseadas em tecnologias open source, principalmente para ambientes corporativos.
+
+Entre as áreas em que atua estão:
+
+- Linux;
+- Java;
+- Containers;
+- Kubernetes;
+- Cloud;
+- Automação;
+- Desenvolvimento empresarial.
+
+É importante não confundir Red Hat com uma linguagem de programação ou uma IDE.
+
+---
+
+Red Hat Enterprise Linux (RHEL)
+
+RHEL significa Red Hat Enterprise Linux.
+
+É um sistema operacional baseado em Linux voltado principalmente para ambientes empresariais e servidores.
+
+Um exemplo de utilização seria:
+
+Servidor
+    ↓
+Red Hat Enterprise Linux
+    ↓
+Aplicação
+    ↓
+Banco de dados
+
+---
+
+JBoss EAP
+
+JBoss EAP significa JBoss Enterprise Application Platform.
+
+É uma plataforma da Red Hat voltada para aplicações empresariais Java.
+
+Ela fornece um ambiente para executar aplicações Java corporativas.
+
+---
+
+JAR
+
+JAR significa Java Archive.
+
+É um formato utilizado para empacotar classes, recursos e aplicações Java.
+
+Exemplo:
+
+meu-projeto.jar
+
+Um projeto Maven pode gerar um arquivo ".jar" depois de ser compilado e empacotado.
+
+---
+
+API
+
+API significa Application Programming Interface, ou Interface de Programação de Aplicações.
+
+É uma forma de permitir que diferentes softwares se comuniquem.
+
+Um exemplo simples:
+
+Aplicativo
+    ↓
+   API
+    ↓
+Servidor
+    ↓
+Banco de dados
+
+Uma API pode receber uma requisição, processá-la e devolver informações para outro sistema.
+
+---
+
+Estrutura básica de um projeto Maven
+
+Um projeto Maven normalmente possui uma estrutura parecida com esta:
+
+meu-projeto/
+│
+├── src/
+│   │
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│   │
+│   └── test/
+│       ├── java/
+│       └── resources/
+│
+├── pom.xml
+└── ...
+
+"src/main/java"
+
+Contém o código Java principal da aplicação.
+
+"src/main/resources"
+
+Contém arquivos e recursos utilizados pela aplicação.
+
+Por exemplo:
+
+application.properties
+
+"src/test/java"
+
+Contém os testes automatizados do projeto.
+
+"pom.xml"
+
+Contém as configurações do Maven e as dependências do projeto.
+
+---
+
+Como tudo se relaciona?
+
+Uma aplicação pode utilizar todos esses elementos ao mesmo tempo:
+
+                    Desenvolvedor
+                          │
+                          ▼
+                  IntelliJ IDEA
+                         IDE
+                          │
+                          ▼
+                        Java
+                     Linguagem
+                          │
+                          ▼
+                       Maven
+                   Gerenciamento
+                          │
+                          ▼
+                      Framework
+                       Quarkus
+                          │
+                          ▼
+                     Aplicação
+                        Java
+                          │
+                          ▼
+                     Red Hat
+                    Ecossistema
+
+Resumo
+
+Termo| Função
+Java| Linguagem de programação
+JDK| Ferramentas para desenvolver em Java
+IDE| Ambiente integrado de desenvolvimento
+IntelliJ IDEA| IDE utilizada para desenvolver
+Maven| Gerencia e constrói projetos Java
+pom.xml| Arquivo de configuração do Maven
+groupId| Identifica o grupo ou organização
+artifactId| Identifica o projeto
+version| Identifica a versão do projeto
+Dependency| Biblioteca ou recurso necessário
+Framework| Estrutura que facilita o desenvolvimento
+Quarkus| Framework Java associado ao ecossistema Red Hat
+Hibernate| Tecnologia ORM para trabalhar com bancos de dados
+Red Hat| Empresa e ecossistema de tecnologias open source
+RHEL| Sistema operacional empresarial da Red Hat
+JBoss EAP| Plataforma empresarial Java da Red Hat
+JAR| Arquivo utilizado para empacotar aplicações Java
+API| Interface que permite a comunicação entre sistemas
+
+Para memorizar
+
+«IntelliJ é onde eu desenvolvo.
+Java é a linguagem.
+JDK fornece as ferramentas para desenvolver em Java.
+Maven gerencia o projeto.
+"pom.xml" configura o Maven.
+Dependencies são bibliotecas necessárias.
+Framework fornece uma estrutura para desenvolver a aplicação.
+Quarkus é um framework Java.
+Red Hat é uma empresa e um ecossistema de tecnologias, incluindo soluções para Java e ambientes corporativos.»
