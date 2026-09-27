@@ -1,0 +1,25 @@
+package aula07;
+
+public class ForLoop {
+    public static void main(String[] args) {
+        //Podemos fazer um exemplo de contagem até 9, porque ele começa a contar do 0
+        for(int i = 1; i < 10; i++) {
+            System.out.println(i);
+        }
+
+        System.out.println("\nPara os números impares\n");
+
+        //Para números impares
+        for(int number = 1; number <= 20; number+= 2){
+            System.out.println(number);
+        }
+
+        System.out.println("\nSoma dos numeros de 1 a 5\n");
+
+        int sum = 0;
+        for(int numberFive = 1; numberFive <=5; numberFive++) {
+            sum += numberFive;
+        }   
+        System.out.println(sum);        
+    }           
+}
