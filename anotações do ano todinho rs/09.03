@@ -1,0 +1,34 @@
+git clone (shift+insert link do github)
+ls
+cd ds + alt tab
+
+code . para abrir o vs code no git bash
+
+baixar o jdk para o java
+
+.java = precisa compilar (jvm) -< .jar / .class
+. jar =
+
+amazona correto
+
+-> iniciar -: variáveis -> JAVA_HOME = mostra aonde está o jdk
+
+ctrl + " abre o terminal no java
+
+extension pack for java -> extensão para vs code, é um gerenciador de pacotes
+
+gerenciador de pacote: gerencia o projeto, serve para resolver coisas variadas em um projeto.
+
+>>nome do arquivo deve estar igual ao nome da classe principal<< deve começar com letra capital
+
+javac = compilador do java
+
+
+MVC = model (BD), view (front) e controller (back)
+
+tarefa::
+
+documente no mark down como configurar o java no computador, regras básicas do java e uma explicação de como funciona o java
+- permitido IA para AJUDAR, reescrever com as próprias palavras
+
+apertar nos + do símbolo cheio das linhas e, em seguida, no 'commit and push'

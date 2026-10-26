@@ -1,0 +1,21 @@
+anotações do dia 04.05.2026
+
+== -> igual a 		a -- A -> true
+=== -> igual a 		a --- A -> false
+
+-! -> diferente de 	a -! A -> false
+--! -> diferente 	a --! A -> true
+
+&& -> faz com que uma afirmação seja verificada com total certeza. (inner join)
+|| -> (nome é pipe ok), um deles sendo true serve (left join)
+! -> logical not, nega tudo
+
+1 && 1 -> true
+0 && 1 || 1 && 0 -> false
+0 && 0 -> false
+
+>explicar essas mesmas coisas acima com exemplos na pasta 06<
+
+cd (tab) .\aula(número)\
+javac (tab) .\Main.java
+java (tab) .\Main.java 

@@ -1,0 +1,15 @@
+anotação 13.04.2026
+
+-- -> igual
+--- -> estritamente igual
+=> ou <= maior igual ou menor igual
+| | -> ou
+&& -> e
+
+float mynum = 5.75>f<
+NÃO ESQUECER O F!!!!!!!!!!!
+long coloca o L
+..float é mais preciso que double..
+asc2 mapeia todos os caracteres no teclado, uma referencia do que é o código binário e um código asc2 
+cd . \ (tab)
+java .\ (tab)

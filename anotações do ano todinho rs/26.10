@@ -1,0 +1,31 @@
+anotações 26.10.2026
+
+migrations seria:
+• Versionamento de estrutura: Criam uma linha do tempo das alterações feitas nas tabelas, colunas, índices e chaves do banco de dados.
+• Automatização e reprodutibilidade: Permitem que a mesma alteração seja aplicada de forma idêntica no computador de diferentes desenvolvedores, em ambientes de teste e em produção.
+• Rollback (Reversão): Possibilitam desfazer uma alteração estrutural no banco de dados caso algum erro aconteça durante uma atualização
+
+sql não é uma linguagem de programação, mas é uma linguagem de banco de dados fácil de entender.
+
+springboot possui um dos melhores frameworks nativas do java que fazem o papel de criar migrações; arquivos que vão alterar as coisas no banco de dados
+hypernate ou JPA ou flayway java
+			-> serviço de migration para fazer todas as alterações num banco de dados
+
+gerenciador de pacotes: o projeto precisar ser instalado na máquina e tenho um organizador para fazer eles
+-- php: compouser (dev up bla bla bla)
+-- java: maven
+
+node = javascript / typescript
+
+connector: biblioteca (forma antiga de instalar ela)
+
+conceito de bibliotecas: vários componentes que fazem funcionar um projeto em uma programação/ferramenta. dependência do projeto.
+o connector é uma depêndencia sgbd de banco de dados *antigos*
+
+psv: um nome para um diretório dentro do connector.
+
+quadrante do teste ágil:
+primeiro canto: testes unitários e de componentes. existe bibliotecas para esses testes
+segundo: 
+terceiro: 
+quarto:

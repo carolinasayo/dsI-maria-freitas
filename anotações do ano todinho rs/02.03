@@ -1,0 +1,13 @@
+git config --global user.name 'M Carolina Sayo O Freitas'
+git config --global user.email astersmistake@gmail.com
+
+git config --global --list
+
+credencial GitHub: remover caso não tenha seu nome
+
+1- JDK (Java Development Kit)
+2- JVM (Java Virtual Machine)
+
+VS.Code é um editor de texto com características de dev
+
+java --version no terminal para verificar se está funcionando!!!!!

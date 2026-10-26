@@ -1,0 +1,28 @@
+cliente/servidor 
+NODEJS / PHP ou Java
+SQLITE / 
+
+firebase bd não relacional, não monogâmico dos bds 
+yt: Fernanda kipper
+    Gustavo Guanabara kk
+meetup
+a.concat(b)
+
+**caso não tenha ido pro git**
+
+public class Variaveis {
+    public class variaveis {
+        /**
+         * @param args
+         */
+        public static void main(String[] args) {
+            String msgPt1 = "Olá, Alunos!";
+            String msgPt2 = "alunos";
+            System.out.println(msgPt1 + " " + msgPt2);
+            
+            int n1 = 1;
+            String n2 = "2";
+            System.out.println(n1 + Interger.parseInt(n2));
+          }
+    }
+}

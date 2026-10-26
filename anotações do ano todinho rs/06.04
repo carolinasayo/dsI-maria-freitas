@@ -1,0 +1,31 @@
+anotação 06.04.2026
+
+extesion pack for java
+eclipse para programar em vez do vs code
+
+-> revisão
+
+variáveis primitivo e não primitivo
+primitivo: começa tudo minúsculo, com base neles pode-se fazer comparações com sinais matemáticos. === estritamente igual
+não primitivos: utiliza métodos para trabalhar com eles, ex: string; como declarar? o tipo, o nome e o valor
+pascal case: NomeVariavel, exportações, classes e módulos
+camel case: nomeVariavel, para variáveis
+snake case: nome_variavel ou NOME_VARIAVEL
+kebab case: nome-variavel
+
+PS C:\Users\CAMARGO\Desktop\dsI-maria-freitas> cd .\nome do arquivo\
+PS C:\Users\CAMARGO\Desktop\dsI-maria-freitas\aula03> java \documento\
+
+tudo termina em ;
+
+terminal serve para rodar sem erro algum!!!!
+
+declarações short end: 
+
+cloud code ajuda na programação
+
+estados referência de tecnologia no país:
+1) Pernambuco
+2) paraná
+3) sp/rj
+
